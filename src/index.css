@@ -11,7 +11,11 @@ body,
   margin: 0
 }
 
-body, input, select, textarea, button{
+body,
+input,
+select,
+textarea,
+button{
   font-size: 1.6rem; /* 16px */
   font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
@@ -135,4 +139,18 @@ footer{
 
 .button.primary {
   background-color: #f0c040;
+}
+
+/* Filter */
+
+.filter{
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem #c0c0c0 solid;
+
+}
+
+.filter div {
+  flex: 1;
 }
